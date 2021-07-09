@@ -1,0 +1,93 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: #ffe; /* Цвет текста */
+
+}
+p {
+    color: black;
+}
+ul {
+    color: black;
+}
+#p {
+    color: #54B948;
+    font-size: 2.2em;
+}
+a { color: #008BCE; /* Цвет ссылок */ }
+#container {
+    width: 500px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру *!*/
+    background: #FCE600; /* Цвет колонок */
+}
+#header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона шапки */
+}
+#nav, #aside {
+    float: left; width: 110px; padding: 5px;
+}
+#content {
+    background: #ffffee;
+    margin: 550px; /* Ширина колонок */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 150px;
+    text-align: center;
+
+
+}
+table {
+    color: black;
+    text-align: center;
+    width: 80%; /* Ширина таблицы */
+    border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse;
+    margin: auto;
+}
+th {
+    text-align: left; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+    width: 200px;
+}
+#td_width {
+    width: 50px;
+}
+
+#form1 {
+    size: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+#info {
+    text-align: center;
+    font-size: 2.2em;
+}
+.norm {
+    font-size: 0.9em;
+}
+
+#aside {
+    float: right; color: #000;
+}
+h2 { margin: 0 0 1em;
+    color: #54B948;
+    font: 24pt/10pt sans-serif;
+
+}
+#footer {
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона подвала */
+}
